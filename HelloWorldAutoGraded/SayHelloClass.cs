@@ -7,13 +7,16 @@ namespace HelloWorldAutoGraded
 
 		public static string SayHello()
 		{
-			return "&&&";
-		}
+            string message = "Hello, World!";
+            Console.WriteLine(message);
+            return message;
+
+        }
 
         //class constructor - intentionally empty
         public SayHelloClass()
         {
-
+			
         }
     }
 }
